@@ -1,0 +1,54 @@
+Info:
+From super mario run
+all personal info x-ed out
+it does post request to https://1d73367a8bc4b849f5286dc68416acfd.baas.nintendo.com/core/v1/gateway/sdk/login
+Request
+{
+    "advertisingId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 
+    "appVersion": "1.0.0", 
+    "assertion": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 
+    "deviceAccount": {
+        "id": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 
+        "password": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    }, 
+    "deviceName": "iPad4,1", 
+    "locale": "en-AU", 
+    "manufacturer": "Apple", 
+    "networkType": "wifi", 
+    "osType": "iOS", 
+    "osVersion": "10.0.1", 
+    "sdkVersion": "Unity-1.0.rc4-665e265", 
+    "timeZone": "Australia/Melbourne", 
+    "timeZoneOffset": 39600000
+}
+
+Response
+{
+    "accessToken": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx", 
+    "createdDeviceAccount": null, 
+    "error": null, 
+    "expiresIn": 900, 
+    "idToken": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 
+    "sessionId": null, 
+    "user": {
+        "birthday": "0000-00-00", 
+        "country": "AU", 
+        "createdAt": 1481879733, 
+        "deviceAccounts": [
+            {
+                "id": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx"
+            }
+        ], 
+        "gender": "unknown", 
+        "id": "XXXXXXXXXXXXXXXXXXXXXX", 
+        "links": {}, 
+        "nickname": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx", 
+        "permissions": {
+            "personalAnalytics": true, 
+            "personalAnalyticsUpdatedAt": 1481879733, 
+            "personalNotification": true, 
+            "personalNotificationUpdatedAt": 1481879733
+        }, 
+        "updatedAt": 1481879814
+    }
+}
